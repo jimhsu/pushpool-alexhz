@@ -1,0 +1,11 @@
+Scrypt-based *coins push-mining pool server with merged mining and local work generation support.
+
+Dependencies:
+	libevent		Event-driven async I/O
+	libmemcached		memcached client
+	pthreads		POSIX threads
+	zlib			gzip compression
+	jansson			JSON
+	OpenSSL's libcrypto	sha256
+	libcurl			HTTP client
+
